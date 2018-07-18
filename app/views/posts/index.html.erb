@@ -5,6 +5,7 @@
     <%= submit_tag "Filter" %>
   <% end %>
 </div>
+
 <% @posts.each do |post| %>
   <div><%= post.title %> - <%= last_updated(post) %></div>
 <% end %>
