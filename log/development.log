@@ -448,3 +448,4 @@ Cannot render console from 24.228.102.49! Allowed networks: 127.0.0.1, ::1, 127.
 
 Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 24.228.102.49 at 2018-07-18 22:11:14 +0000
 Cannot render console from 24.228.102.49! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
