@@ -459,3 +459,21 @@ Processing by PostsController#index as HTML
   [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.erb within layouts/application (30.0ms)
 Completed 200 OK in 597ms (Views: 530.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/posts" for 24.228.102.49 at 2018-07-18 22:14:20 +0000
+Cannot render console from 24.228.102.49! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for 24.228.102.49 at 2018-07-18 22:14:22 +0000
+Cannot render console from 24.228.102.49! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mAuthor Load (0.3ms)[0m  SELECT "authors".* FROM "authors"
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.6ms)
